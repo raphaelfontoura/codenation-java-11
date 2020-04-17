@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.challenge.dto.CandidateDTO;
-import com.challenge.entity.Candidate;
 import com.challenge.mappers.CandidateMapper;
 import com.challenge.service.impl.CandidateService;
 
