@@ -19,7 +19,4 @@ public class SubmissionService implements SubmissionServiceInterface {
         return repository.findByChallengeIdAndAccelerationId(challengeId, accelerationId);
     }
 
-//	public List<Submission> findAll() {
-//		return repository.findAll();
-//	}
 }

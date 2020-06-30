@@ -25,8 +25,4 @@ public class AccelerationService implements AccelerationServiceInterface {
         return accelerationRepository.findByCandidatesIdCompanyId(companyId);
     }
 
-//	public List<Acceleration> findAll() {
-//		return accelerationRepository.findAll();
-//	}
-
 }

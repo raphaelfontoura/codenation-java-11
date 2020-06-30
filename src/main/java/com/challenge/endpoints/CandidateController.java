@@ -22,11 +22,7 @@ public class CandidateController {
 	
 	private CandidateService candidate;
 	private CandidateMapper candidateMapper;
-	
-//	@GetMapping
-//	public List<Candidate> findAll(){
-//		return this.candidate.findAll();
-//	}
+
 	
 	@GetMapping("/{userId}/{companyId}/{accelerationId}")
 	public CandidateDTO findById(@PathVariable Long userId, @PathVariable Long companyId, @PathVariable Long accelerationId) {

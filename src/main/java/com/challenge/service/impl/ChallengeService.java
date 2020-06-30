@@ -19,8 +19,4 @@ public class ChallengeService implements ChallengeServiceInterface {
         return repository.findByAccelerationIdAndUserId(accelerationId, userId);
     }
 
-//	public List<Challenge> findAll() {
-//		return repository.findAll();
-//	}
-
 }

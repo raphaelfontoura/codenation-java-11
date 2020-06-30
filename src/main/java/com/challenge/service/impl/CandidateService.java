@@ -30,8 +30,4 @@ public class CandidateService implements CandidateServiceInterface {
         return candidateRepository.findByIdAccelerationId(accelerationId);
     }
 
-//	public List<Candidate> findAll() {
-//		return candidateRepository.findAll();
-//	}
-
 }
